@@ -41,7 +41,7 @@ public class MyService extends AccessibilityService  {
                             handler.post(new Runnable(){
                                 public void run(){
                                     Toast.makeText(getApplicationContext(), content, Toast.LENGTH_LONG).show();
-                                    
+
                                 }
                             });
                         }
