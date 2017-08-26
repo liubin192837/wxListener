@@ -36,6 +36,8 @@ public class MyService extends AccessibilityService  {
                             handler=new Handler(Looper.getMainLooper());
                             handler.post(new Runnable(){
                                 public void run(){
+
+                                    
                                     Toast.makeText(getApplicationContext(), content, Toast.LENGTH_LONG).show();
                                 }
                             });
